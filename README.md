@@ -38,7 +38,3 @@ ros2 run rol_fby_kisbeadando gen_node
 ```
 ros2 run rol_fby_kisbeadando sum_node 
 ```
-###Graph
-```
-
-``` 
