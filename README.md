@@ -6,18 +6,18 @@ A package két node-ból áll. A /gen_node tangens jelet és korlátozottan vél
 It is assumed that the workspace is `~/ros2_ws/`.
 
 ### Clone the packages
-``` r
+``` 
 cd ~/ros2_ws/src
 ```
-``` r
+``` 
 git clone https://github.com/peterbela/rol_fby_kisbeadando
 ```
 
 ### Build ROS 2 packages
-``` r
+``` 
 cd ~/ros2_ws
 ```
-``` r
+``` 
 colcon build --packages-select rol_fby_kisbeadando --symlink-install
 ```
 
@@ -38,3 +38,9 @@ ros2 run rol_fby_kisbeadando gen_node
 ```
 ros2 run rol_fby_kisbeadando sum_node 
 ```
+###Graph
+```
+ 
+ 
+
+``` 
