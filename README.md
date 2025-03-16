@@ -40,6 +40,6 @@ ros2 run rol_fby_kisbeadando sum_node
 ```
 ###Graph
 ```
-![Graph](https://github.com/user-attachments/assets/2859e14d-97ae-479b-a800-02c3742974cd)
+
 
 ``` 
