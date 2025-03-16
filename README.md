@@ -31,6 +31,8 @@ source ~/ros2_ws/install/setup.bash
 
 ``` r
 ros2 launch rol_fby_kisbeadando launch_example1.launch.cpp
+
 ros2 run rol_fby_kisbeadando gen_node
+
 ros2 run rol_fby_kisbeadando sum_node 
 ```
