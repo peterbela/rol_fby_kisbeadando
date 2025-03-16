@@ -22,9 +22,9 @@ set(ament_dependencies
 )
 
 add_executable(gen_node src/gen.cpp)
-ament_target_dependencies(gen_node ${ament_dependencies} )
+ament_target_dependencies(gen_node rclcpp)
 add_executable(sum_node src/sum.cpp)
-ament_target_dependencies(sum_node ${ament_dependencies} )
+ament_target_dependencies(sum_node rclcpp )
 
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
